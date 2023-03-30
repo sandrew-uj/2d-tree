@@ -1,0 +1,18 @@
+# ninja log v5
+33	124	6759055185135538	test/etc/input.dat	8a165a4e8f61494b
+33	124	6759055185135538	test/etc/test0.dat	8a165a4e8f61494b
+33	124	6759055185135538	test/etc/test1.dat	8a165a4e8f61494b
+33	124	6759055185135538	test/etc/test2.dat	8a165a4e8f61494b
+33	124	6759055185135538	C:/Users/DNS/CplusplusProjects/2d-tree-sandrew-uj/cmake-build-usan/test/etc/input.dat	8a165a4e8f61494b
+33	124	6759055185135538	C:/Users/DNS/CplusplusProjects/2d-tree-sandrew-uj/cmake-build-usan/test/etc/test0.dat	8a165a4e8f61494b
+33	124	6759055185135538	C:/Users/DNS/CplusplusProjects/2d-tree-sandrew-uj/cmake-build-usan/test/etc/test1.dat	8a165a4e8f61494b
+33	124	6759055185135538	C:/Users/DNS/CplusplusProjects/2d-tree-sandrew-uj/cmake-build-usan/test/etc/test2.dat	8a165a4e8f61494b
+19	2446	6759055208305585	CMakeFiles/2d_tree_lib.dir/src/point.cpp.obj	c091bf4c29545401
+15	2495	6759055208825626	CMakeFiles/2d_tree_lib.dir/src/rect.cpp.obj	b2cfeb9513d40b4a
+29	2994	6759055213865671	googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	df697a48be2db390
+1	8205	6759055265920871	CMakeFiles/2d_tree_lib.dir/src/2dtree.cpp.obj	16aeb19fd7022169
+8205	8351	6759055267440954	lib2d_tree_lib.a	1e0cfe6c19d7b48a
+24	12750	6759055311309248	googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	70e6b7073042e117
+12752	15208	6759055336017321	lib/libgtest.a	83eee7f5322718f0
+15208	15484	6759055338777322	lib/libgtest_main.a	e679b46261cd59e0
+126	28977	6759055473266964	test/CMakeFiles/runUnitTests.dir/src/test.cpp.obj	ecf01d5bd529aa75

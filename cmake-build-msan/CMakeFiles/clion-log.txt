@@ -1,0 +1,41 @@
+"C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=MSAN "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2021.3.3/bin/ninja/win/ninja.exe" -G Ninja C:\Users\DNS\CplusplusProjects\2d-tree-sandrew-uj
+-- The C compiler identification is GNU 11.2.0
+-- The CXX compiler identification is GNU 11.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found Python: C:/Program Files/WindowsApps/PythonSoftwareFoundation.Python.3.10_3.10.1264.0_x64__qbz5n2kfra8p0/python3.10.exe (found version "3.10.4") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/DNS/CplusplusProjects/2d-tree-sandrew-uj/cmake-build-msan
+
+Cannot get compiler information:
+	Compiler exited with error code 1: C:\Program Files\JetBrains\CLion 2021.3.3\bin\mingw\bin\g++.exe -xc++ -g -O3 -Wall -Wextra -pedantic -pedantic-errors -O1 -fsanitize=memory -fno-omit-frame-pointer -fno-sanitize-recover=all -Wold-style-cast -Wnull-dereference -Wduplicated-branches -Wduplicated-cond -Wsuggest-override -Wuseless-cast -Wreturn-local-addr -std=gnu++17 -fpch-preprocess -v -dD -E
+	g++.exe: error: unrecognized argument to '-fsanitize=' option: 'memory'
+	Using built-in specs.
+	COLLECT_GCC=C:\Program Files\JetBrains\CLion 2021.3.3\bin\mingw\bin\g++.exe
+	Target: x86_64-w64-mingw32
+	Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+	Thread model: posix
+	Supported LTO compression algorithms: zlib
+	gcc version 11.2.0 (GCC) 
+	
+	
+	Compiler exited with error code 1: C:\Program Files\JetBrains\CLion 2021.3.3\bin\mingw\bin\g++.exe -xc++ -isystemC:/Users/DNS/CplusplusProjects/2d-tree-sandrew-uj/googletest/googletest/include -isystemC:/Users/DNS/CplusplusProjects/2d-tree-sandrew-uj/googletest/googletest -g -O3 -Wall -Wextra -pedantic -pedantic-errors -O1 -fsanitize=memory -fno-omit-frame-pointer -fno-sanitize-recover=all -Wno-gnu-zero-variadic-macro-arguments -Wold-style-cast -Wnull-dereference -Wduplicated-branches -Wduplicated-cond -Wsuggest-override -Wuseless-cast -Wreturn-local-addr -std=gnu++17 -fpch-preprocess -v -dD -E
+	g++.exe: error: unrecognized argument to '-fsanitize=' option: 'memory'
+	Using built-in specs.
+	COLLECT_GCC=C:\Program Files\JetBrains\CLion 2021.3.3\bin\mingw\bin\g++.exe
+	Target: x86_64-w64-mingw32
+	Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+	Thread model: posix
+	Supported LTO compression algorithms: zlib
+	gcc version 11.2.0 (GCC) 
+	
+	
